@@ -12,7 +12,8 @@
     ],
     "authors": [
         {
-            "name": "Bram Gerritsen"
+            "name": "Bram Gerritsen",
+            "email": "bgerritsen@gmail.com"
         }
     ],
     "version": "dev-master",
