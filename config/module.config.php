@@ -13,12 +13,12 @@ return array(
 	),
 	'router' => array(
 		'routes' => array(
-			'ajax-validate2' => array(
+			'strokerform-form' => array(
 				'type' => 'Segment',
 				'options' => array(
 					'route' => '/formtest/:form',
 					'defaults' => array(
-						'controller' => 'StrokerFormSandbox\Controller\Test',
+						'controller' => 'StrokerFormSandbox\Controller\Form',
 						'action' => 'form',
 						'form' => 'demo1',
 						'locale' => 'nl'

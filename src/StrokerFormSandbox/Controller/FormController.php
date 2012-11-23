@@ -2,8 +2,8 @@
 /**
  * Description
  *
- * @category  Acsi
- * @package   Acsi\
+ * @category  StrokerFormSandbox
+ * @package   StrokerFormSandbox\Controller
  * @copyright 2012 ACSI Holding bv (http://www.acsi.eu)
  * @version   SVN: $Id$
  */
@@ -14,7 +14,7 @@ use Zend\Form\Element;
 use Zend\View\Model\ViewModel;
 use Zend\Form\Form;
 
-class TestController extends \Zend\Mvc\Controller\AbstractActionController
+class FormController extends \Zend\Mvc\Controller\AbstractActionController
 {
 	/**
 	 * @param \StrokerForm\FormPluginManager $formManager

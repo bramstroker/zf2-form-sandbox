@@ -24,6 +24,9 @@
     "autoload": {
         "psr-0": {
             "StrokerFormSandbox": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }

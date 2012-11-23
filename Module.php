@@ -53,7 +53,7 @@ class Module implements
 	{
 		return array(
 			'factories' => array(
-				'StrokerFormSandbox\Controller\Test' => 'StrokerFormSandbox\Service\TestControllerFactory'
+				'StrokerFormSandbox\Controller\Form' => 'StrokerFormSandbox\Service\FormControllerFactory'
 			)
 		);
 	}

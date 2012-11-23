@@ -11,10 +11,10 @@
 namespace StrokerFormSandbox\Service;
 
 use Zend\ServiceManager\FactoryInterface;
-use StrokerFormSandbox\Controller\TestController;
+use StrokerFormSandbox\Controller\FormController;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
-class TestControllerFactory implements FactoryInterface
+class FormControllerFactory implements FactoryInterface
 {
 	/**
 	 * Create service
@@ -26,7 +26,7 @@ class TestControllerFactory implements FactoryInterface
 	{
 		$locator = $serviceLocator->getServiceLocator();
 		$formManager = $locator->get('StrokerForm\FormPluginManager');
-		$controller = new TestController($formManager);
+		$controller = new FormController($formManager);
 		return $controller;
 	}
 }
