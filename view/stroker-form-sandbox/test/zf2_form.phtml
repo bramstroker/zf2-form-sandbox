@@ -1,0 +1,27 @@
+<?php
+$this->headLink()->appendStylesheet('/assets/jquery_validate/css/styles.css');
+$form = $this->form;
+$form->prepare();
+?>
+<h1><?php echo $this->escapeHtml($form->getName()); ?></h1>
+<?php
+$this->strokerFormPrepare($form, $formalias);
+
+echo $this->form()->openTag($form);
+?>
+<ul>
+<?php foreach ($form as $element): ?>
+	<li>
+	<?php
+	if ($element->getLabel())
+	{
+		echo $this->formLabel($element);
+	}
+	echo $this->formElement($element);
+	echo $this->formElementErrors($element);
+	?>
+    </li>
+<?php endforeach; ?>
+</ul>
+<?php
+echo $this->form()->closeTag();

@@ -1,0 +1,11 @@
+<?php
+$this->headLink()->prependStylesheet('//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css');
+$this->headLink()->prependStylesheet('/assets/jquery_validate/css/twbootstrap.css');
+$form = $this->form;
+$form->prepare();
+?>
+<h1><?php echo $this->escapeHtml($form->getName()); ?></h1>
+<?php
+$this->strokerFormPrepare($form, $formalias);
+
+echo $this->formTwb($form);

@@ -1,0 +1,29 @@
+{
+    "name": "stroker/form-sandbox",
+    "description": "ZF2 module for extending forms with live clientside validation",
+    "license": "New-BSD-License",
+    "keywords": [
+        "jquery validate",
+        "form",
+        "validation",
+        "zend framework 2",
+        "module"
+    ],
+    "authors": [
+        {
+            "name": "Bram Gerritsen"
+        }
+    ],
+    "version": "dev-master",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "stroker/form": "dev-master",
+        "dlu/dlutwbootstrap": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "StrokerFormSandbox": "src/"
+        }
+    }
+}
