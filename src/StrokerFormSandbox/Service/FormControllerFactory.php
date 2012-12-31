@@ -25,7 +25,7 @@ class FormControllerFactory implements FactoryInterface
 	public function createService(ServiceLocatorInterface $serviceLocator)
 	{
 		$locator = $serviceLocator->getServiceLocator();
-		$formManager = $locator->get('StrokerForm\FormPluginManager');
+		$formManager = $locator->get('StrokerForm\FormManager');
 		$controller = new FormController($formManager);
 		return $controller;
 	}

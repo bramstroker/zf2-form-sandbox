@@ -17,9 +17,9 @@ use Zend\Form\Form;
 class FormController extends \Zend\Mvc\Controller\AbstractActionController
 {
 	/**
-	 * @param \StrokerForm\FormPluginManager $formManager
+	 * @param \StrokerForm\FormManager $formManager
 	 */
-	public function __construct(\StrokerForm\FormPluginManager $formManager)
+	public function __construct(\StrokerForm\FormManager $formManager)
 	{
 		$this->formManager = $formManager;
 	}
