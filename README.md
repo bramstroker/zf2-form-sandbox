@@ -26,3 +26,8 @@ Installation of this module uses composer. For composer documentation, please re
      ```
   3. run `php composer.phar install`
   4. open `my/project/directory/config/application.config.php` and add `StrokerForm`, `StrokerFormSandbox` and `DluTwBootstrap` to your `modules`
+  5. copy the assets folder to your public folder
+
+## Usage
+
+Fire up your webbrowser and surf to http://mydomain.com/formtest
