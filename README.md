@@ -20,7 +20,7 @@ Installation of this module uses composer. For composer documentation, please re
      {
          "minimum-stability": "dev",
          "require": {
-             "stroker/form": "dev-master"
+             "stroker/form-sandbox": "*"
          }
      }
      ```
