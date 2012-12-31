@@ -16,7 +16,7 @@ return array(
 			'strokerform-form' => array(
 				'type' => 'Segment',
 				'options' => array(
-					'route' => '/formtest/:form',
+					'route' => '/formtest[/:form]',
 					'defaults' => array(
 						'controller' => 'StrokerFormSandbox\Controller\Form',
 						'action' => 'form',
@@ -31,5 +31,8 @@ return array(
 		'template_path_stack' => array(
 			__DIR__ . '/../view',
 		),
+		'template_map' => array(
+            		'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
+        	)
 	),
 );
