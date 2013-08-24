@@ -7,7 +7,8 @@ return array(
 				'album' => 'StrokerFormSandbox\Service\AlbumFormFactory'
 			),
 			'invokables' => array(
-				'demo2' => 'StrokerFormSandbox\Form\DemoForm2'
+				'demo2' => 'StrokerFormSandbox\Form\DemoForm2',
+                'fieldset' => 'StrokerFormSandbox\Form\FieldsetForm'
 			)
 		)
 	),
